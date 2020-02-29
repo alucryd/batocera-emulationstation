@@ -1,7 +1,7 @@
 #include "InputConfig.h"
 
 #include "Log.h"
-#include <pugixml/src/pugixml.hpp>
+#include <pugixml.hpp>
 
 //some util functions
 std::string inputTypeToString(InputType type)

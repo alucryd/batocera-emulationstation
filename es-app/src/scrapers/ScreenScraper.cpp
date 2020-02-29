@@ -7,7 +7,7 @@
 #include "PlatformId.h"
 #include "Settings.h"
 #include "SystemData.h"
-#include <pugixml/src/pugixml.hpp>
+#include <pugixml.hpp>
 #include <cstring>
 #include "SystemConf.h"
 #include "md5.h"

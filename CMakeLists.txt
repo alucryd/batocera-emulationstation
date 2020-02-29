@@ -89,6 +89,7 @@ find_package(SDL2 REQUIRED)
 find_package(CURL REQUIRED)
 find_package(VLC REQUIRED)
 find_package(RapidJSON REQUIRED)
+find_package(PugiXML REQUIRED)
 
 if(CEC)
   find_package(libCEC)
@@ -161,6 +162,7 @@ set(COMMON_INCLUDE_DIRS
     ${CURL_INCLUDE_DIR}
     ${VLC_INCLUDE_DIR}
     ${RAPIDJSON_INCLUDE_DIRS}
+    ${PugiXML_INCLUDE_DIRS}
     ${CMAKE_CURRENT_SOURCE_DIR}/external
     ${CMAKE_CURRENT_SOURCE_DIR}/es-core/src
 )
@@ -232,7 +234,7 @@ set(COMMON_LIBRARIES
     # batocera / customisations    
     ${CURL_LIBRARIES}
     ${VLC_LIBRARIES}
-    pugixml
+    ${PugiXML_LIBRARIES}
     nanosvg
     id3v2
 )

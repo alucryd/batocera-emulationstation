@@ -44,7 +44,7 @@
 #endif
 
 #include "platform.h"
-#include <pugixml/src/pugixml.hpp>
+#include <pugixml.hpp>
 
 ApiSystem::ApiSystem() 
 {
